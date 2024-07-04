@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Switzer-Variable';
+  src: url(../fonts/Switzer-Variable.woff2) format('woff2');
+}
+
+body {
+  font-family: 'Switzer-Variable', sans-serif;
+  background-image: url('../images/rg2-pattern.svg');
+  background-size: 16rem;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+main {
+  text-align: center;
+}
+
+img {
+  width: 90vw;
+  max-width: 480px;
+  height: auto;
+}
+
+h1 {
+  font-weight: normal;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
