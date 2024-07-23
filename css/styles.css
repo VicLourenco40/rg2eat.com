@@ -16,13 +16,17 @@ body {
   background-image: url('../assets/images/rg2-pattern.svg');
   background-size: 16rem;
   margin: 0 10vw;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 3rem;
   text-align: center;
+}
+
+header {
+  margin-top: 3rem;
 }
 
 header img {
@@ -37,6 +41,7 @@ h1, h2 {
 }
 
 nav {
+  margin-bottom: 3rem;
   width: 75vw;
   max-width: 400px;
   display: flex;
