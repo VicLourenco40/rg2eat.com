@@ -21,7 +21,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 4rem;
   text-align: center;
 }
 
@@ -49,7 +49,7 @@ nav {
   gap: 2rem;
 }
 
-nav a {
+nav a, .button {
   color: var(--color-text);
   background-color: var(--color-main);
   padding: 1rem;
@@ -64,9 +64,19 @@ nav a {
   user-select: none;
 }
 
-nav a img {
+nav a img, .button img {
   width: 2rem;
   height: auto;
+}
+
+#menu-extra-languages {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+#menu-extra-languages a {
+  flex: 1;
 }
 
 @media (max-width: 480px) {
